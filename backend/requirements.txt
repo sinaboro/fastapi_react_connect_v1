@@ -31,7 +31,7 @@ python-jose[cryptography]>=3.3.0
 # 비밀번호 암호화 라이브러리
 # Spring의 BCryptPasswordEncoder와 동일한 역할
 # 비밀번호를 해시 암호화
-passlib[bcrypt]>=1.7.4
+passlib==1.7.4
 
 
 # bcrypt 버전 고정

@@ -8,7 +8,7 @@ class UserCreate(BaseModel):
     email: EmailStr
     password: str = Field(..., min_length=4)
 
-    @field_validator("username") #aafbad123, 
+    @field_validator("username") 
     @classmethod
     def username_alphanumeric(cls, v):
         if not v.isalnum():
